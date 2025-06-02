@@ -1,7 +1,9 @@
 import random
 
-def guessing_game():                            # Create a function named guessing_game
-    target_number = random.randint(1, 100)      # Generate a random number between 1 and 100
+
+def main():       # Create a function named guessing_game
+    # Generate a random number between 1 and 100
+    target_number = random.randint(1, 100)
     guess = 0
     number_guess = 1
 
@@ -30,5 +32,5 @@ def guessing_game():                            # Create a function named guessi
             print("¯\_(ツ)_/¯")
             print("Please enter a valid number.")
 
-if __name__ == "__main__":
-    guessing_game()
+
+main()
